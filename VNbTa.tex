@@ -383,17 +383,19 @@
 	\frametitle{}
 	\vfill
 	\begin{itemize}
-		\item Hlavní využití nachází vanad jako příměs do ocelí (ferrovanad).
+		\item Hlavní využití nachází vanad jako příměs do ocelí (\textit{ferrovanad}).
 		\item S uhlíkem v oceli vytváří jemná zrna \ce{V4C3}, ta jsou rozptýlena v~objemu a dávají oceli vyšší odolnost vůči opotřebení, a to i za vysokých teplot.
 		\item Tyto oceli se využívají při konstrukci pružin a rychlořezných ocelí.
 		\item Obsah vanadu se pohybuje mezi 35 a 80~\%.
-		\item Nejběžnějším typem je FeV80, která obsahuje 80~\% vanadu.
+		\item Nejběžnějším typem ferrovanadu je FeV80, který obsahuje 80~\% vanadu.
 		\item Vyrábí se z oxidu vanadičného redukcí ferrosiliciem nebo hliníkem.
 		\item Jako struskotvorná látka se využívá pálené vápno.
-		\item \ce{3 V2O5 + 10 Al -> 6 V + 5 Al2O3}
-		\item \ce{2 V2O5 + 5 Si + 10 CaO -> 4 V + 5 Ca2SiO4}
-		\item \ce{V_x + Fe_{1-x} -> (Fe_{1-x}V_x)}
 	\end{itemize}
+	\begin{align*}
+		\ce{3 V2O5 + 10 Al &-> 6 V + 5 Al2O3} \\
+		\ce{2 V2O5 + 5 Si + 10 CaO &-> 4 V + 5 Ca2SiO4} \\
+		\ce{V_x + Fe_{1-x} &-> (Fe_{1-x}V_x)}
+	\end{align*}
 	\vfill
 }
 
@@ -441,7 +443,7 @@
 	\frametitle{}
 	\vfill
 	\begin{itemize}
-		\item V roce 2022 Čína zprovoznila v Ta-lienu největší baterii tohoto typu, jako úložiště pro elektřinu získávanou z obnovitelných zdrojů (slunce a větru).\footnote[frame]{\href{https://www.svethardware.cz/cina-spustila-nejvetsi-redox-flox-baterii-na-svete-se-100mw-400mwh/58424}{Čína spustila největší redox flox baterii na světě se 100MW/400MWh}}
+		\item V roce 2022 Čína zprovoznila v Ta-lienu největší baterii tohoto typu, jako úložiště pro elektřinu získávanou z obnovitelných zdrojů (slunce a větru).\footnote[frame]{\href{https://www.svethardware.cz/cina-spustila-nejvetsi-redox-flow-baterii-na-svete-se-100mw-400mwh/58424}{Čína spustila největší redox flow baterii na světě se 100MW/400MWh}}
 		\item Baterie dokáže uložit 400 MWh energie a do sítě zvládne dodávat 100 MW.\footnote[frame]{\href{https://www.pv-magazine.com/2022/09/29/china-connects-worlds-largest-redox-flow-battery-system-to-grid/}{China connects world’s largest redox flow battery system to grid
 		}}
 		\item Je plánováno v budoucnu zvýšit tyto parametry na dvojnásobek.
@@ -546,7 +548,8 @@
 	\frametitle{}
 	\vfill
 	\begin{itemize}
-		\item Jaderný izomer \textbf{\ce{$^{93m}$Nb}} se připravuje ozařováním stabilního izotopu \ce{$^{93}$Nb} rychlými neutrony v jaderném reaktoru:
+		\item Jaderný izomer \ce{$^{93m}$Nb} se využívá jako zdroj RTG záření pro rentgenovou fluorescenci (XRF).\footnote[frame]{\href{https://doi.org/10.1016/0883-2889(90)90184-I}{The possibility of \ce{$^{93m}$Nb} radionuclide production in the nuclear reactor BR-10 ...}}
+		\item Připravuje se ozařováním stabilního izotopu \ce{$^{93}$Nb} rychlými neutrony v jaderném reaktoru:
 		\item \ce{$^{93}$Nb + n -> $^{93m}$Nb + n}
 		\item Ozářený niob se nechá dostatečně dlouho stát, aby došlo k rozpadu izotopu \ce{$^{95}$Nb} (T$_\frac{1}{2}$ 35 dnů) a pak se rozpustí ve směsi kyseliny fluorovodíkové a dusičné.
 		\item \ce{$^{93}$Nb + n ->[][-$\gamma$] $^{94}$Nb + n ->[][-$\gamma$] $^{95}$Nb}
@@ -554,7 +557,6 @@
 		\item Deexcitace probíhá uvolněním fotonu o energii 30,8~keV, poločas přeměny 16,1 roku.
 		\item Analogicky lze provést excitaci ozařováním niobu brzdným zářením o energii 5--30~MeV:
 		\item \ce{$^{93}$Nb + $\gamma$ -> $^{93m}$Nb + $\gamma^\prime$}
-		\item Izomer \ce{$^{93m}$Nb} se využívá jako zdroj RTG záření pro rentgenovou fluorescenci (XRF).\footnote[frame]{\href{https://doi.org/10.1016/0883-2889(90)90184-I}{The possibility of \ce{$^{93m}$Nb} radionuclide production in the nuclear reactor BR-10 ...}}
 	\end{itemize}
 	\vfill
 }
@@ -568,7 +570,8 @@
 		\item Oproti klasickým elektrolytickým kondenzátorům mají velmi výhodný poměr kapacity a objemu.
 	\end{itemize}
 	\begin{figure}
-		\adjincludegraphics[height=.55\textheight]{img/Tantal-P1100196c.jpg}
+		\adjincludegraphics[height=.5\textheight]{img/Tantal-P1100196c.jpg}
+		\caption*{Tantalové kondenzátory.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Tantal-P1100196c.jpg}{Jens Both/Commons}}}
 	\end{figure}
 	\vfill
 }
@@ -576,18 +579,25 @@
 \frame{
 	\frametitle{}
 	\vfill
-	\begin{itemize}
-		\item Anoda kondenzátoru je tvořena kovovým tantalem, vyrábí se lisováním práškového tantalu na tantalový drát ve vakuu při teplotě 1500--2000~$^\circ$C.\footnote[frame]{\href{https://www.avx.com/docs/techinfo/Tantalum-NiobiumCapacitors/bsctant.pdf}{Basic tantalum capacitor technology}}
-		\item Kapacitance materiálu je závislá na měrném povrchu anody.
-		\item Dielektrická vrstva se vyrábí elektrochemickou oxidací anody.
-		\item \ce{2 Ta + 5 H2O -> Ta2O5 + 5 H2}
-		\item Tloušťka dielektrické vrstvy určuje maximální napětí, které kondenzátor snese.
-		\item Katoda je tvořena vrstvou \ce{MnO2} vytvořenou tepelným rozkladem dusičnanu manganatého.
-		\item \ce{Mn(NO3)2 -> MnO2 + 2 NO2}
-	\end{itemize}
-	\begin{figure}
-		\adjincludegraphics[height=.2\textheight]{img/Parallel_plate_capacitor.png}
-	\end{figure}
+	\begin{columns}
+		\begin{column}{.75\textwidth}
+			\begin{itemize}
+				\item Anoda kondenzátoru je tvořena kovovým tantalem, vyrábí se lisováním práškového tantalu na tantalový drát ve vakuu při teplotě 1500--2000~$^\circ$C.\footnote[frame]{\href{https://www.avx.com/docs/techinfo/Tantalum-NiobiumCapacitors/bsctant.pdf}{Basic tantalum capacitor technology}}
+				\item Kapacitance materiálu je závislá na měrném povrchu anody.
+				\item Dielektrická vrstva se vyrábí elektrochemickou oxidací anody.
+				\item \ce{2 Ta + 5 H2O -> Ta2O5 + 5 H2}
+				\item Tloušťka dielektrické vrstvy určuje maximální napětí, které kondenzátor snese.
+				\item Katoda je tvořena vrstvou \ce{MnO2} vytvořenou tepelným rozkladem dusičnanu manganatého.
+				\item \ce{Mn(NO3)2 -> MnO2 + 2 NO2}
+			\end{itemize}
+		\end{column}
+		\begin{column}{.25\textwidth}
+			\begin{figure}
+				\adjincludegraphics[width=\textwidth]{img/Parallel_plate_capacitor.png}
+				\caption*{Schéma kondenzátoru.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Parallel_plate_capacitor.svg}{inductiveload/Commons}}}
+			\end{figure}
+		\end{column}
+	\end{columns}
 	\vfill
 }
 
@@ -595,7 +605,8 @@
 	\frametitle{}
 	\vfill
 	\begin{figure}
-		\adjincludegraphics[height=.8\textheight]{img/Tantalum_Capacitor_Production_Flow.png}
+		\adjincludegraphics[height=.7\textheight]{img/Tantalum_Capacitor_Production_Flow.png}
+		\caption*{Výroba tantalových kondenzátorů.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Tantalum_Capacitor_Production_Flow.png}{Elcap/Commons}}}
 	\end{figure}
 	\vfill
 }
@@ -607,7 +618,7 @@
 		\item Tantal je také součástí mnoha slitin s vysokou teplotou tání, pevností a tažností.
 		\item Využívají se pro speciální aplikace jako jsou tepelné výměníky, proudové motory, chemické a jaderné reaktory, atd.
 		\item Tantal je odolný vůči působení kyselin, kromě HF a horké kyseliny sírové.
-		\item Dokáže vázat kyslík a dusík (za tvorby oxidů a nitridů), toho se využívá při konstrukci vakuových elektronek k udržování vysokého vakua.
+		\item Dokáže vázat kyslík a dusík (za tvorby oxidů a nitridů). Toho se využívá, při konstrukci vakuových elektronek, k udržování vysokého vakua.
 		\item Vysoké teplotní stability se využívá i při konstrukci topných těles do vysokoteplotních pecí.
 	\end{itemize}
 	\vfill
@@ -626,6 +637,7 @@
 	\end{itemize}
 	\begin{figure}
 		\adjincludegraphics[height=.3\textheight]{img/mlok.jpg}
+		\caption*{Mlok skvrnitý.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Mlok.JPG}{Martin Filip + Tereza Procházková/Commons}}}
 	\end{figure}
 	\vfill
 }
@@ -638,7 +650,7 @@
 		\item Vanad a tantal mají elektronovou konfiguraci (n-1)d$^3$ ns$^2$. U niobu je konfigurace 4d$^4$ 5s$^1$.
 		\item Vlastnosti prvků jsou podobné prvkům 4. skupiny.
 		\item Na vzduchu se pasivují tvorbou oxidické vrstvy.
-		\item Rozpouštějí se v oleu\footnote[frame]{Dýmavá kyselina sírová, roztok oxidu sírového v kyselině sírové}, kyselině fluorovodíkové a ve směsi \ce{HF/HNO3}.
+		\item Rozpouštějí se v oleu,\footnote[frame]{Dýmavá kyselina sírová, roztok oxidu sírového v kyselině sírové} kyselině fluorovodíkové a ve směsi \ce{HF/HNO3}.
 		\item Niob a tantal se dále rozpouštějí i v dalších minerálních kyselinách.
 		\item Vytvářejí sloučeniny v rozmezí oxidačních čísel -III až V.
 		\item Koordinační číslo může dosahovat až hodnoty 8.
@@ -687,7 +699,7 @@
 	\frametitle{}
 	\vfill
 	\begin{itemize}
-		\item S $\pi$-akceptorními ligandy vytváří i komplexní sloučeniny, kde vystupují v oxidačním čísle 0.
+		\item S $\pi$-akceptorními ligandy vytváří komplexní sloučeniny, kde vystupují v oxidačním čísle 0.
 		\item Příkladem může být hexakarbonyl vanadu, \ce{[V(CO)6]}.
 		\item Ten se připravuje redukcí \ce{VCl3} sodíkem v přítomnosti oxidu uhelnatého a následnou oxidací kyselinou fosforečnou.\footnote[frame]{\href{https://doi.org/10.1002/0471653683.ch3}{Transition Metal Carbonyl Compounds}}
 	\end{itemize}
@@ -734,15 +746,15 @@
 	\begin{columns}
 		\begin{column}{.5\textwidth}
 			\begin{figure}
-				\adjincludegraphics[width=\textwidth]{img/Cavansite-121680.jpg}
-				\caption*{Canvasit}
+				\adjincludegraphics[height=.55\textheight]{img/Cavansite-121680.jpg}
+				\caption*{Canvasit.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Cavansite-121680.jpg}{Robert M. Lavinsky/Commons}}}
 			\end{figure}
 		\end{column}
 
 		\begin{column}{.5\textwidth}
 			\begin{figure}
-				\adjincludegraphics[width=\textwidth]{img/Pentagonite-177796.jpg}
-				\caption*{Pentagonit}
+				\adjincludegraphics[height=.55\textheight]{img/Pentagonite-177796.jpg}
+				\caption*{Pentagonit.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Pentagonite-177796.jpg}{Robert M. Lavinsky/Commons}}}
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -760,7 +772,8 @@
 		\item Je amfoterní, ochotně se rozpouští v kyselinách za vzniku dioxovanadičného kationtu \ce{(VO2)+}, v roztocích alkalických hydroxidů tvoří orthovanadičnanové ionty \ce{VO$_4^{3-}$}.
 	\end{itemize}
 	\begin{figure}
-		\adjincludegraphics[height=.4\textheight]{img/V2O5.png}
+		\adjincludegraphics[height=.3\textheight]{img/V2O5.png}
+		\caption*{Oxid vanadičný.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Oxid_vanadi\%C4\%8Dn\%C3\%BD.PNG}{Ondřej Mangl/Commons}}}
 	\end{figure}
 	\vfill
 }
@@ -810,6 +823,7 @@
 	\end{itemize}
 	\begin{figure}
 		\adjincludegraphics[height=.3\textheight]{img/Vanadium-oxidiert.jpg}
+		\caption*{Oxid vanaditý.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Vanadium-oxidiert.JPG}{P.R. Binter/Commons}}}
 	\end{figure}
 	\vfill
 }
@@ -856,7 +870,7 @@
 	\vfill
 	\begin{figure}
 		\adjincludegraphics[height=.7\textheight]{img/Decavanadate_polyhedra.png}
-		\caption*{Struktura dekavanadičnanu \ce{[V10O28]^{6-}}}
+		\caption*{Struktura dekavanadičnanu \ce{[V10O28]^{6-}}.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Decavanadate_polyhedra.png}{Axiosaurus/Commons}}}
 	\end{figure}
 	\vfill
 }
@@ -865,7 +879,8 @@
 	\frametitle{}
 	\vfill
 	\begin{figure}
-		\adjincludegraphics[height=.8\textheight]{img/VinwaterPourbaixdiagram.png}
+		\adjincludegraphics[height=.7\textheight]{img/VinwaterPourbaixdiagram.png}
+		\caption*{Ionty vanadu ve vodném roztoku.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:VinwaterPourbaixdiagram.png}{Cadmium/Commons}}}
 	\end{figure}
 	\vfill
 }
@@ -904,7 +919,8 @@
 
 	\begin{column}{.4\textwidth}
 	\begin{figure}
-		\adjincludegraphics[width=\textwidth]{img/VF5-xtal.png}
+		\adjincludegraphics[width=.85\textwidth]{img/VF5-xtal.png}
+		\caption*{Krystalová struktura fluoridu vanadičného.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Kristallstruktur_Vanadium(V)-fluorid.png}{Orci/Commons}}}
 	\end{figure}
 	\end{column}
 	\end{columns}
@@ -918,7 +934,7 @@
 		\item Ve vodě hydrolyzuje až na oxid vanadičný:
 		\item \ce{VF5 + H2O -> VOF3 + 2 HF}
 		\item \ce{2 VOF3 + 3 H2O -> V2O5 + 6 HF}
-		\item Má také silné fluorační schopnosti. fluoruje nenasycené perfluoropolefiny až na perfluoroalkany. Dokáže fluorovat i elementární síru:
+		\item Má také silné fluorační schopnosti, fluoruje nenasycené perfluoropolefiny až na perfluoroalkany. Dokáže fluorovat i elementární síru:
 		\item \ce{S + 4 VF5 -> SF4 + 4 VF4}
 		\item Ochotně se rozpouští v HF, nereaguje s kapalným chlorem, ani bromem.
 		\item Fluorid vanadičitý, \ce{VF4}, je paramagnetická žlutohnědá pevná látka. Je silně hygroskopický.
@@ -933,8 +949,8 @@
 	\frametitle{}
 	\vfill
 	\begin{figure}
-		\adjincludegraphics[height=.75\textheight]{img/VF4-xtal.png}
-		\caption*{Krystalová struktura \ce{VF4}}
+		\adjincludegraphics[height=.7\textheight]{img/VF4-xtal.png}
+		\caption*{Krystalová struktura \ce{VF4}.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Struktur_von_Vanadium(IV)-fluorid.png}{Andif1/Commons}}}
 	\end{figure}
 	\vfill
 }
@@ -958,7 +974,7 @@
 
 		\begin{column}{.3\textwidth}
 			\begin{figure}
-				\adjincludegraphics[width=\textwidth]{img/VCl4-2THF.png}
+				\adjincludegraphics[width=.9\textwidth]{img/VCl4-2THF.png}
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -997,12 +1013,14 @@
 	\begin{columns}
 		\begin{column}{.5\textwidth}
 			\begin{figure}
-				\adjincludegraphics[width=\textwidth]{img/Amavadin.png}
+				\adjincludegraphics[width=.9\textwidth]{img/Amavadin.png}
+				\caption*{Amavadin.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Amavadin.svg}{Edgar181/Commons}}}
 			\end{figure}
 		\end{column}
 		\begin{column}{.5\textwidth}
 			\begin{figure}
-				\adjincludegraphics[width=\textwidth]{img/Amavadin-from-xtal.png}
+				\adjincludegraphics[width=.9\textwidth]{img/Amavadin-from-xtal.png}
+				\caption*{Krystalová struktura amavadinu.\footnote[frame]{Zdroj: \href{https://commons.wikimedia.org/wiki/File:Amavadin-from-xtal-1999-3D-balls.png}{Ben Mills/Commons}}}
 			\end{figure}
 		\end{column}
 	\end{columns}
